@@ -6,6 +6,8 @@
 
 package vo;
 
+import java.util.List;
+
 /**
  *
  * @author pakorn
@@ -23,6 +25,7 @@ public class Home {
     private String district;
     private String provinceDesc;
     private String districtDesc;
+    private List<Image> imagesList;
 
     public Home() {
     }
@@ -138,4 +141,14 @@ public class Home {
     public void setName(String name) {
         this.name = name;
     }
+
+    public List<Image> getImagesList() {
+        return imagesList;
+    }
+
+    public void setImagesList(List<Image> imagesList) {
+        this.imagesList = imagesList;
+    }
+    
+    
 }
